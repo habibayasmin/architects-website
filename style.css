@@ -1,0 +1,190 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*---------------------
+    Header Styles 
+------------------------*/
+
+/*Navigation styles */
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.nav-title{
+    font-size: 45px;
+}
+.list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+/* Banner styles */
+
+.header{
+    background-color: #FFF4E7;
+}
+.banner{
+    text-align: center;
+
+}
+.banner-title{
+    font-size: 60px;
+    margin: 0 400px;
+}
+.banner-description{
+    font-size: 16px;
+    margin: 20px 400px;
+}
+.btn-primary{
+    font-size: 20px;
+    color: #fff;
+    background-color:  #FF900E;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    color: #492701ef;
+    background-color: rgba(211, 119, 6, 0.521);
+}
+.banner-photo{
+   margin-top: 40px;
+}
+.banner-photo img{
+    height: 500px;
+    width: auto;
+   margin-left: 175px;
+   margin-bottom: 35px;
+}
+
+/*----------------------------- 
+    Main section styles
+-------------------------------*/
+
+.main{
+    margin-top: 80px;
+}
+.main-section{
+    margin-bottom: 100px;
+}
+.section{
+    display: flex;
+}
+.feature-gallery{
+    display: grid;
+    grid-template-columns: repeat(2,250px);
+    gap: 24px;
+    margin-left: 175px;
+}
+.feature-gallery img{
+    height: 250px;
+    width: auto;
+}
+.section-detail{
+   
+  margin: 150px 0 0 50px;
+}
+.section-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+#title-1{
+ color: #727272;
+}
+#title-2{
+    color: #FF900E;
+}
+.section-description{
+    font-size: 16px;
+    margin: 20px 130px 25px 0 ;
+}
+
+/* sub section syles */
+
+.section-2{
+    display: flex;
+}
+.sub-section, .other{
+    margin-left: 100px;  
+}
+.sub-section-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sub-section-description{
+    margin-right:  200px;
+    
+}
+.sub-section-detail{
+    background: #FFFFFF;
+    width: 500px;
+    height: 100px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px; 
+    padding: 20px;
+    margin-top: 30px;
+}
+.sub-section-photo img{
+    height: 850px;
+    width: auto;
+}
+.button{
+   margin: 20px 700px;
+}
+.big-button{
+    height: 100px;
+    width: 180px;
+    color: #fff;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+}
+.other-title{
+    margin-bottom: 20px;
+}
+
+.work-detail{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+ .work{
+    width: 200px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 30px ; 
+ }
+ .sponspors{
+    text-align: center;
+    margin: 100px 0 50px 0;
+ }
+ .reference img{
+    margin-bottom: 100px;
+ }
+
+ /*------------------- 
+    Footer styles
+  --------------------*/
+ .footer{
+    margin-left: 200px;
+    margin-bottom: 50px;
+ }
+  .footer-part{
+    height: 80px ;
+    width: 900px;
+    background-color: #FFF4E7;
+    text-align: center;
+    padding-top: 60px;
+  }
