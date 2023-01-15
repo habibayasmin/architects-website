@@ -113,7 +113,14 @@
 .section-2{
     display: flex;
     
+    
 }
+.section-2 h2{
+    border-left: 4px solid #FF900E;
+    padding-left:15px;
+
+}
+
 .sub-section, .other{
     margin-left: 100px;  
 }
@@ -160,15 +167,7 @@
 .btn-text{
     font-size: 16px;
 }
-hr{
-    border: 2px solid #FF900E;
-    width: 50px ;
-}
-/* hr{
-    position: relative;
-    top: 190px;
-    left: 100px;
-} */
+
 .other-title{
     margin-bottom: 20px;
 }
@@ -185,6 +184,10 @@ hr{
     border-radius: 8px;
     text-align: center;
     padding-top: 30px ; 
+ }
+ .work:hover{
+    transform: translate(20px, 40px);
+    transition: 1s;
  }
  /* -------------------------- 
     Extra section styles
