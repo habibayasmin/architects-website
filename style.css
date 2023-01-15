@@ -110,9 +110,9 @@
 }
 
 /* sub section syles */
-
 .section-2{
     display: flex;
+    
 }
 .sub-section, .other{
     margin-left: 100px;  
@@ -142,13 +142,33 @@
    margin: 20px 700px;
 }
 .big-button{
-    height: 100px;
-    width: 180px;
+    height: 150px;
+    width: 250px;
     color: #fff;
     background-color: #FF900E;
     border: none;
     border-radius: 5px;
 }
+.big-button{
+    position: relative;
+    bottom: 160px;
+    right: 30px;
+}
+.btn-title{
+    font-size: 45px;
+}
+.btn-text{
+    font-size: 16px;
+}
+hr{
+    border: 2px solid #FF900E;
+    width: 50px ;
+}
+/* hr{
+    position: relative;
+    top: 190px;
+    left: 100px;
+} */
 .other-title{
     margin-bottom: 20px;
 }
@@ -159,21 +179,63 @@
     margin-top: 80px;
 }
  .work{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #FF900E;
     border-radius: 8px;
     text-align: center;
     padding-top: 30px ; 
  }
+ /* -------------------------- 
+    Extra section styles
+ ------------------------------*/
+ 
+ .detail{
+    margin-left: 100px;
+ }
+ .extra-title{
+    font-size: 45px;
+    margin-bottom: 20px;
+ }
+ .photos{
+    display: flex;
+    gap: 25px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+ }
+ .extra-photo img{
+    height: 200px;
+    margin-bottom: 20px; 
+    margin-top: 10px; 
+ }
+ .img-detail{
+    font-size: 30px;
+ }
+
+
+
+
+
  .sponspors{
     text-align: center;
     margin: 100px 0 50px 0;
  }
+.sponspors-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+ .reference{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+ }
  .reference img{
     margin-bottom: 100px;
  }
-
+.grayscale{
+    filter: grayscale(100%);
+}
  /*------------------- 
     Footer styles
   --------------------*/
@@ -182,9 +244,21 @@
     margin-bottom: 50px;
  }
   .footer-part{
-    height: 80px ;
+    height: 50px ;
     width: 900px;
     background-color: #FFF4E7;
     text-align: center;
-    padding-top: 60px;
+    padding-top: 40px;
   }
+   /* ------------------
+      Media Queries
+   -------------------- */
+
+   /* mobile devices */
+
+   @media only screen and (max-width:576px) {
+      
+   }
+   .hide{
+    display: none;
+   }
